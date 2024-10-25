@@ -22,12 +22,12 @@ Next, head over to the ".env" file and set the environment variables.
 
 ## How to Run
 The file structure should look like this:
-.
-├── RFX_DOCS/                # Folder containing RFX documents (PDF format)
-├── app.py                   # Main script to load documents, embed, and run the app
-├── requirements.txt         # List of dependencies
-├── .env                     # OpenAI and Langsmith Environment variables (see above)
-└── Readme.md                # Readme file for the script
+
+- **RFX_DOCS/**: Contains the RFX documents in PDF format.
+- **app.py**: Main script to load documents, embed them, and run the application.
+- **requirements.txt**: Lists all necessary dependencies to install.
+- **.env**: Stores environment variables, including OpenAI and Langsmith API keys.
+- **Readme.md**: Provides information about the project, installation instructions, and usage guidelines.
 
 To run the script simply run the app.py file as:
     python app.py
